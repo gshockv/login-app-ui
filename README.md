@@ -8,8 +8,8 @@ This is a result of my Jetpack Compose learning pathway based on this amazing co
 <img src="" />
 
 ## App Screenshots
-<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/welcome_screen.png" height="980" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/login_screen.png" height="980" />
-<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/signup_screen.png" height="980" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/congrats_screen.png" height="980" />
+<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/welcome_screen.png" height="720" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/login_screen.png" height="720" />
+<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/signup_screen.png" height="720" />&nbsp;&nbsp;&nbsp;<img src="https://github.com/gshockv/login-app-ui/blob/main/screenshots/congrats_screen.png" height="720" />
 
 
 ![Welcome Screen]()
