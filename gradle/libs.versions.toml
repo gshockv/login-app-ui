@@ -1,0 +1,34 @@
+[versions]
+gradle = "8.7.3"
+kotlin = "2.0.20"
+androidx-core = "1.15.0"
+androidx-runtime = "2.8.7"
+compose-bom = "2024.12.01"
+compose-activity = "1.9.3"
+compose-navigation = "2.8.5"
+konfetti = "2.0.4"
+
+[libraries]
+androidx-core = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
+androidx-lifecycle = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-runtime" }
+
+compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+compose-ui = { group = "androidx.compose.ui", name = "ui" }
+compose-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "compose-activity" }
+compose-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "compose-navigation" }
+
+konfetti = { group= "nl.dionsegijn", name = "konfetti-compose", version.ref = "konfetti" }
+
+[bundles]
+androidX = [ "androidx-core", "androidx-lifecycle" ]
+ui = [ "compose-ui", "compose-graphics", "compose-ui-tooling-preview", "compose-activity", "compose-material3", "konfetti", "compose-navigation" ]
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "gradle" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+
